@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 from src.config.config import Config
-from database import mongo, init_db
+from src.database import mongo, init_db
 
 def create_app():
     app = Flask(__name__)
